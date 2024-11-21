@@ -9,6 +9,7 @@ pipeline{
     stage('Checkout'){
       steps {
         sh "echo passed"
+        sh "java --version"
       }
     }
     stage('Build and Test'){
